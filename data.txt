@@ -1,0 +1,8 @@
+ASCII text and HTML text are human-readable formats. Text often comes in binary
+formats—such as PDF and MSWord—that can only be opened using specialized soft-ware. Third-party libraries such as pypdf and pywin32 provide access to these formats.
+Extracting text from multicolumn documents is particularly challenging. For one-off
+conversion of a few documents, it is simpler to open the document with a suitable
+application , then save it as text to your local drive, and access it as described below. If
+the document is already on the Web , you can enter its URL in Google’s search box.
+The search result often includes a link to an HTML version of the document, which
+you can save as text.
