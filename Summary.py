@@ -55,5 +55,7 @@ for sentence in sentences:
         if sentence in sentenceValue and sentenceValue[sentence] > (1.3 * average):
             summary +=  " " + sentence
             
-print(summary)
-
+#print(summary)
+f = open('output.txt', 'w')
+f.write(summary)   
+f.close()  
